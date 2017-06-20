@@ -1,0 +1,318 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.resize {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.top_header {
+	min-height: 45px;
+	background: #37a14c;
+}
+
+.connect {
+	font-size: 16px;
+	line-height: 45px;
+	color:#fff;
+	float:left;
+}
+
+.top_header ul {
+	float:right;
+	padding-top:8px;
+}
+
+.top_header li {
+	list-style:none;
+	float:left;
+	padding-left:6px;
+}
+
+.middle_header p {
+	color:#0f680e;
+	padding-top:4px;
+}
+
+.tel_1 {
+	font-size: 20px;
+	line-height:22px;
+	padding-left:30px;
+}
+
+.tel_2 {
+	font-size: 20px;
+	line-height:22px;
+	padding-left:83px;
+}
+
+.tel_3 {
+	font-size: 20px;
+	line-height:22px;
+	padding-left:7px;
+}
+
+.contact_info {
+	width:296px;
+	float:left;
+	padding-top:15px;
+	padding-left:30px;
+}
+
+.middle_header .human_contact_1 {
+	color:black;
+}
+
+.link_skype a {
+	text-decoration:none;
+	padding-left:42px;
+	position:relative;
+	font-style:italic;
+	font-size:16px;
+}
+
+.link_skype a:hover {
+	color:red;
+}
+
+.link_skype a:before {
+	content:'';
+	background:url(../images/icon_skype.png);
+	background-repeat:no-repeat;
+	width:19px;
+	height:19px;
+	position:absolute;
+	left:7px;
+}
+
+.contact_info:before {
+	content:'';
+	clear:both;
+	display:block;
+}
+
+.logo_minecraft {
+	float:left;
+	padding-top:15px;
+}
+
+.buttons:before {
+	content:'';
+	clear:both;
+	display:block;
+}
+
+.buttons a {
+	display:block;
+	background: linear-gradient(to top, #febc11, #f3ec19);
+	margin-top:20px;
+	width:136px;
+	min-height:35px;
+	text-decoration:none;
+	line-height:35px;
+	text-align:center;
+	color:#fff;
+	border-radius:6px;
+	box-shadow:0 2px 1px black;
+}
+
+.buttons a:hover {
+	background: linear-gradient(to top, #f3ec19, #febc11);
+	box-shadow:0 4px 4px black;
+}
+
+.buttons {
+	float:left;
+	padding-left: 24px;
+}
+
+.logo_1 {
+	padding-left:16px;
+	padding-top:34px;
+}
+
+.middle_header {
+	padding-bottom:35px;
+}
+
+.header_bottom {
+	min-height:45px;
+	background: linear-gradient(to top, #309444, #51c066);
+}
+
+.header_bottom li {
+	list-style:none;
+	float:left;
+	width:20%;
+	text-align:center;
+	line-height:45px;
+}
+
+.header_bottom a {
+	text-decoration:none;
+	font-size:16px;
+	color:#fff;
+	border-left:1px solid #247634;
+	display:block;
+}
+
+.last_li {
+	border-right:1px solid #247634;
+	box-sizing: border-box;
+}
+
+.header_bottom a:hover {
+  background: linear-gradient(to top, #2DA145, #46DA62);
+  color:#FCC312;
+}
+
+header {
+	padding-bottom:10px;
+}
+
+.header:before {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.content li {
+	list-style:none;
+}
+
+.left_bar {
+	width:230px;
+	float:left;
+}
+
+.left_bar li {
+	font-size:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-bottom:1px solid #EAEAEA;
+}
+
+.left_bar li li {
+	font-size:16px;
+	color:red;
+	border-bottom:none;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:20px;
+}
+
+.left_bar li ul {
+  padding-top:16px;
+}
+
+.content_top {
+	width:733px;
+	border-bottom:1px solid #E7E7E7;
+	padding-bottom:30px;
+}
+
+h1 {
+	font-size:24px;
+	padding-bottom:24px;
+	width:591px;
+}
+
+.about_game {
+	font-size:13px;
+	padding-top:15px;
+}
+
+.screen_game {
+	width: 232px;
+	float:left;
+	padding-top:20px;
+}
+
+.content_bottom h2 {
+	font-size:16px;
+	padding-bottom:10px;
+	width:733px;
+}
+	
+
+.text_over_screen {
+	background: linear-gradient(to top, #45BC5C, #309444);
+	min-height:91px;
+}
+
+.text_over_screen p {
+	font-size:13px;
+	font-weight:bold;
+	padding-top:9px;
+	padding-left:8px;
+}
+
+.text_over_screen .text_game {
+	color:#fff;
+	padding-top:8px;
+	font-weight:normal;
+}
+
+.screen_game_1 {
+	width: 232px;
+	float:left;
+	padding-left:18.5px;
+	padding-right:18.5px;
+	padding-top:20px;
+}
+
+.content_bottom {
+	padding-top:20px;
+}
+
+.oll_content {
+	width:733px;
+	float:right;
+	padding-top: 11px;
+	padding-bottom:30px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.top_footer {
+	min-height:96px;
+	background: linear-gradient(to top, #F1B107, #FEC50D);
+}
+
+.connect:before{
+	content:'';
+	display:block;
+	height:0;
+	clear:both;
+}
+
+.contact_footer p {
+	font-size:16px;
+}
+
+.tel_2_1 {
+	padding-left:91px;
+	font-size:20px;
+}
+
+.contact_footer {
+	width:304px;
+	float:right;
+	padding-top:12px;
+}
+
+.footer_middle {
+	background: linear-gradient(to top, #44BA5B, #3D9B50);
+	min-height:89px;
+	line-height:89px;
+}
+
+.footer_middle li {
+	float:left;
+	width:25%;
+	list-style:none;
+}
