@@ -31,6 +31,54 @@
 	padding-left:6px;
 }
 
+a.vk_link:before {
+	content:"";
+	position:absolute;
+	left:8px;
+	top:-13px;
+	width:28px;
+	height:28px;
+	background:url(../images/sprite.png) no-repeat ;
+}
+
+a.vk_link {
+	position:relative;
+	display:inline-block;
+	padding-left:35px;
+}
+
+a.facebook_link:before {
+	content:"";
+	position:absolute;
+	left:8px;
+	top:-13px;
+	width:28px;
+	height:28px;
+	background:url(../images/sprite.png) no-repeat -30px 0;
+}
+
+a.facebook_link {
+	position:relative;
+	display:inline-block;
+	padding-left:35px;
+}
+
+a.english_link:before {
+	content:"";
+	position:absolute;
+	left:8px;
+	top:-13px;
+	width:28px;
+	height:28px;
+	background:url(../images/sprite.png) no-repeat -60px 0;	
+}
+
+a.english_link{
+	position:relative;
+	display:inline-block;
+	padding-left:35px;
+}
+
 .middle_header p {
 	color:#0f680e;
 	padding-top:4px;
