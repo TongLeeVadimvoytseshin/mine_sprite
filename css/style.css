@@ -34,7 +34,7 @@
 a.vk_link:before {
 	content:"";
 	position:absolute;
-	left:8px;
+	left:16px;
 	top:-13px;
 	width:28px;
 	height:28px;
@@ -50,7 +50,7 @@ a.vk_link {
 a.facebook_link:before {
 	content:"";
 	position:absolute;
-	left:8px;
+	left:12px;
 	top:-13px;
 	width:28px;
 	height:28px;
